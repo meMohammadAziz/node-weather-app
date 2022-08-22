@@ -10,7 +10,7 @@ const forecast = (lat, long, callback) => {
     } else {
       callback(
         undefined,
-        `${body.current.condition.text}. It is currently ${body.current.temp_c} degrees out. There is ${body.forecast.forecastday[0].day.daily_chance_of_rain}% chance of rain.`
+        `${body.current.condition.text}. Its currently ${body.current.temp_c} degrees out. There is ${body.forecast.forecastday[0].day.daily_chance_of_rain}% chance of rain.`
       );
     }
   });
