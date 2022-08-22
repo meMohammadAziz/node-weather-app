@@ -1,5 +1,3 @@
-console.log("JS file is loaded successfully");
-
 // fetch("https://puzzle.mead.io/puzzle")
 //   .then((res) => res.json())
 //   .then((data) => console.log(data.puzzle));
